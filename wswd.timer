@@ -1,0 +1,8 @@
+[Unit]
+Description=Clean workspace workdir assocation hourly
+
+[Timer]
+OnUnitActiveSec=3600
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Clean workspace workdir associations
+
+[Service]
+Type=oneshot
+ExecStart=wswd clean
