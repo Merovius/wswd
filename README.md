@@ -12,8 +12,9 @@ details of when that happens are unspecified.
 
 # Installation
 
-You need at least Go 1.20. Install it via `go install gonih.org/wswd@latest`.
-Also, make sure `$GOPATH/bin` or `$GOBIN` is in your `$PATH`.
+You need a recent Go installation. Install `wswd` via `go install
+gonih.org/wswd@latest`.  Also, make sure `$GOPATH/bin` or `$GOBIN` is in your
+`$PATH`.
 
 # Usage
 
