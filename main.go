@@ -94,7 +94,7 @@ func run(ctx context.Context) error {
 		return err
 	}
 
-	return unix.Exec(cmd, args[1:], os.Environ())
+	return unix.Exec(cmd, args, os.Environ())
 }
 
 type config struct {
